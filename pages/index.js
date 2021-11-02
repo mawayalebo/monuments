@@ -39,7 +39,7 @@ export default function Home() {
           </div>
           <hr/>
           <div className="flex space-x-5 mt-5">
-            <span><a href="https://wa.me/message/MTIPGDDV6BPZ01?src=qr">Whatsapp</a></span>
+            <span><a href="https://wa.me/message/MTIPGDDV6BPZO1?src=qr">Whatsapp</a></span>
             <span><a href="monuments.civil.arch@gmail.com">Gmail</a></span>
             <span><a href="https://www.instagram.com/monuments.civil.arch/">Instagram</a></span>
             <span><a href="https://www.facebook.com/Monuments-Civil-and-Architectural-Projects-105922798563046">Facebook</a></span>
