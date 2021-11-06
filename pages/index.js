@@ -73,10 +73,10 @@ export default function Home() {
                 <Image src="/Facebook_Icon.png" width={65} height={65} />
               </div>
               <div>
-                <span className="text-white whitespace-nowrap"><a href="https://www.facebook.com/Monuments-Civil-and-Architectural-Projects-105922798563046">Whatsapp</a></span>
+                <span className="text-white whitespace-nowrap"><a href="https://www.facebook.com/Monuments-Civil-and-Architectural-Projects-105922798563046">Facebook</a></span>
               </div>
               <div>
-                <span className="text-white whitespace-nowrap">+(27)79 747 5160 </span>
+                <span className="text-white whitespace-nowrap">Monuments Civil & Architectural Projects </span>
               </div>
             </div>
 
