@@ -34,13 +34,10 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center relative ">
         
         <div>
-          <h1 className="font-bold text-4xl">Monuments Civil & Architectural Projects</h1>
+          <h1 className="font-bold text-4xl text-blue">MONUMENTS CIVIL & ARCHITECTURAL PROJECTS</h1>
         </div>
+        <hr />
         <div>
-          <div className="mt-10">
-            <h2 className="font-bold text-2xl">Contact us</h2>
-          </div>
-          <hr/>
           <div className="flex justify-center space-x-5 space-y-5 mt-10 items-center flex-wrap">
             
             {/* whatsapp */}
