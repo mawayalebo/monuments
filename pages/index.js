@@ -42,10 +42,11 @@ export default function Home() {
           </div>
           <hr/>
           <div className="flex justify-center space-x-5 space-y-5 mt-10 items-center flex-wrap">
+            
             {/* whatsapp */}
             <div className="flex flex-grow flex-col p-5 cursor-pointer rounded-xl bg-gray-900 hover:scale-105 shadow-2xl bg-opacity-40">
               <div>
-                <Image src="/Whatsapp_Icon.png" width={65} height={65} />
+                <Image src="/WhatsApp_icon.png" width={65} height={65} />
               </div>
               <div>
                 <span className="text-white"><a href="https://wa.me/message/MTIPGDDV6BPZO1?src=qr">Whatsapp</a></span>
@@ -59,7 +60,7 @@ export default function Home() {
             {/* instagram*/}
             <div className="flex flex-grow flex-col bg-opacity-40 p-5 cursor-pointer rounded-xl bg-blend-multiply bg-gray-900 hover:scale-105 shadow-2xl">
               <div>
-                <Image src="/Instagram_Icon.png" width={65} height={65} />
+                <Image src="/Instagram_icon.png" width={65} height={65} />
               </div>
               <div>
                 <span className="text-white"><a href="https://www.instagram.com/monuments.civil.arch/">Instagram</a></span>
@@ -85,7 +86,7 @@ export default function Home() {
             {/* gmail*/}
             <div className="flex flex-grow  flex-col bg-opacity-40 p-5 cursor-pointer rounded-xl bg-blend-multiply bg-gray-900 hover:scale-105 shadow-2xl">
               <div>
-                <Image src="/Gmail_Icon.png" width={65} height={65} />
+                <Image src="/Gmail_icon.png" width={65} height={65} />
               </div>
               <div>
                 <span className="text-white"><a href="mailto:monuments.civil.arch@gmail.com">Email</a></span>
