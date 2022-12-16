@@ -10,7 +10,7 @@ const socialmedia = [
     icon: 'facebook.svg'
   },
   {
-    name: 'Instagram',
+    name: 'Tiktok',
     link: 'https://www.instagram.com/',
     icon: 'instagram.svg'
   },
@@ -52,18 +52,30 @@ export default function Home() {
                 <span className="text-white whitespace-nowrap">+(27)79 747 5160 </span>
               </div>
             </div>
+            {/* gmail*/}
+            <div className="flex flex-grow  flex-col bg-opacity-40 p-5 cursor-pointer rounded-xl bg-blend-multiply bg-gray-900 hover:scale-105 shadow-2xl">
+              <div>
+                <Image src="/Gmail_icon.png" width={65} height={65} />
+              </div>
+              <div>
+                <span className="text-white"><a href="mailto:monuments.civil.arch@gmail.com">Email</a></span>
+              </div>
+              <div>
+                <span className="text-white whitespace-nowrap">monuments.civil.arch@gmail.com</span>
+              </div>
+            </div>
             
 
             {/* instagram*/}
             <div className="flex flex-grow flex-col bg-opacity-40 p-5 cursor-pointer rounded-xl bg-blend-multiply bg-gray-900 hover:scale-105 shadow-2xl">
               <div>
-                <Image src="/Instagram_icon.png" width={65} height={65} />
+                <Image src="/tiktok_icon.png" width={65} height={65} />
               </div>
               <div>
-                <span className="text-white"><a href="https://www.instagram.com/monuments.civil.arch/">Instagram</a></span>
+                <span className="text-white"><a href="https://www.tiktok.com/@monumentscap?_t=8YDxwghC2Sc&_r=1">Tiktok</a></span>
               </div>
               <div>
-                <span className="text-white whitespace-nowrap">@monuments.civil.arch</span>
+                <span className="text-white whitespace-nowrap">@monumentscap</span>
               </div>
             </div>
 
@@ -80,18 +92,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* gmail*/}
-            <div className="flex flex-grow  flex-col bg-opacity-40 p-5 cursor-pointer rounded-xl bg-blend-multiply bg-gray-900 hover:scale-105 shadow-2xl">
-              <div>
-                <Image src="/Gmail_icon.png" width={65} height={65} />
-              </div>
-              <div>
-                <span className="text-white"><a href="mailto:monuments.civil.arch@gmail.com">Email</a></span>
-              </div>
-              <div>
-                <span className="text-white whitespace-nowrap">monuments.civil.arch@gmail.com</span>
-              </div>
-            </div>
+            
           </div>
         </div>
       </main>
